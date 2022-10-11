@@ -19,7 +19,7 @@ Comment=Live see all new dmesg events
 Path=/usr/bin
 
 # The executable of the application, possibly with arguments.
-Exec=dmesg -w -H  --color=auto --nopager
+Exec=sudo dmesg -w -H  --color=auto --nopager
 
 # The name of the icon that will be used to display this entry
 Icon=plv

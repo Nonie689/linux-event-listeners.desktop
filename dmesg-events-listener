@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+su -c "dmesg -w -H  --color=auto --nopager"

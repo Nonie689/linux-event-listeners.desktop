@@ -22,7 +22,7 @@ Path=/usr/bin
 Exec=journalctl -f --no-hostname -o short-full --utc -p 5  --all --no-pager
 
 # The name of the icon that will be used to display this entry
-Icon=journald-even-listener
+Icon=journald-events-listener
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=true
