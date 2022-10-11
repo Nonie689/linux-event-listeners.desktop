@@ -1,0 +1,31 @@
+[Desktop Entry]
+
+# The type as listed above
+Type=Application
+
+# The version of the desktop entry specification to which this file complies
+Version=1.0
+
+# The name of the application
+Name=dmesg-event-listener
+
+# Generic name of the application
+GenericName=Live dmesg info viewer
+
+# A comment which can/will be used as a tooltip
+Comment=Live see all new dmesg events
+
+# The path to the folder in which the executable is run
+Path=/usr/bin
+
+# The executable of the application, possibly with arguments.
+Exec=sudo dmesg -w -H  --color=auto --nopager
+
+# The name of the icon that will be used to display this entry
+Icon=plv
+
+# Describes whether this application needs to be run in a terminal or not
+Terminal=true
+
+# Describes the categories in which this entry should be shown
+Categories=Application;Qt;GNOME;Network;
