@@ -19,7 +19,7 @@ Comment=Live see all new journald events
 Path=/usr/bin
 
 # The executable of the application, possibly with arguments.
-Exec=sudo journalctl -f --no-hostname -o short-full --utc -p 5  --all --no-pager
+Exec=journalctl -f --no-hostname -o short-full --utc -p 5  --all --no-pager
 
 # The name of the icon that will be used to display this entry
 Icon=journald-even-listener
